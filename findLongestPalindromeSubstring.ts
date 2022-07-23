@@ -26,8 +26,6 @@ const findLongestPalindromeSubstring = (txt: string) => {
                 start = leftPointer + 1
             }
         }
-        let s = txt.substring(start,start + maxLength)
-        s
         return txt.substring(start,start + maxLength)
     } else {
         return txt
